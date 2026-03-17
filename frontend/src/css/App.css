@@ -1,0 +1,125 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 94vh;
+  border-radius: 30%;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 60px 20px 60px;
+  box-shadow: #b1b0b0 0px 1px 10px 0px;
+  gap: 50px;
+}
+
+.div-button{
+  display: flex;
+  justify-content: center;
+}
+
+#outlined-basic{
+  height: 40px;
+  width: 300px;
+}
+
+.div-input{
+  display: flex;
+  gap: 60px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.login{
+  text-align: center;
+  font-size: 40px;
+}
+
+.button{
+    background-color: #7F5539;
+    color: #EDE0D4;
+    border-radius: 35px !important;
+    border-color: #ddb89200;
+    width: 195px;
+    font-size: 20px;
+    height: 60px;
+}
+
+.footer{
+  background-color: #7F5539;
+}
+
+.login button{
+  color:#7F5539 ;
+  font-weight: 700;
+}
+
+.login{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  z-index: 1300;
+  background-color: #7f5539;
+}
+
+.sidebar {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  width: 240px;
+  height: calc(100vh - 64px);
+  z-index: 1200; 
+  background-color: white;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1); 
+  overflow-y: auto; 
+}
+
+.image {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.393);
+}
+
+
+.image::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url(https://muddy-glitter-cbf5.hussienksab7.workers.dev/background.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  z-index: -1;
+  transform: scale(1.1);
+}
+
+.inputs {
+  width: 50%;
+}
+
+.containers {
+  display: flex;
+  height: 100vh;
+}
+
+.store-name{
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,92 @@
+.con div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+
+}
+
+.con {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 90vh;
+}
+
+.store-page {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.393);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.store-page::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url(https://muddy-glitter-cbf5.hussienksab7.workers.dev/background.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  z-index: -1;
+  transform: scale(1.1);
+}
+
+.welcome-space{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-left {
+  transform: rotate(90deg);
+  height: 40px;
+  margin-right: 30px;
+  color: #cfcfcf;
+  border: 1px solid white;
+}
+
+.line-right{
+  transform: rotate(90deg);
+  height: 40px;
+  margin-left: 30px;
+  color: #cfcfcf;
+  border: 1px solid white;
+}
+
+.checkout{
+  display: flex;
+  align-items: center ;
+  height: 100vh;
+}
+
+.cart {
+  overflow:scroll;
+  overflow-x: hidden;
+  height: 900px;
+}
+
+.checkout-box {
+  display: flex;
+  margin-left: 40px;
+}
+
+.checkout-box .info {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.checkout-box .info div {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width:328px;
+}

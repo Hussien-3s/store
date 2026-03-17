@@ -1,0 +1,44 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 94vh;
+  border-radius: 30%;
+}
+
+#outlined-basic{
+  height: 40px;
+  width: 300px;
+}
+
+.div-input{
+  display: flex;
+  gap: 60px;
+  justify-content: space-around;
+  
+}
+
+.login{
+  text-align: center;
+  font-size: 40px;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info #outlined-basic {
+  height: 40px;
+  width: 170px;
+}
+
+.footer{
+  background-color: #7F5539;
+}
