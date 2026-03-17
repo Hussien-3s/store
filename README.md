@@ -26,7 +26,7 @@ A modern, high-performance E-commerce store application built using the **MERN**
 * **Runtime:** Node.js
 * **Framework:** Express.js
 * **Authentication:** JWT (JSON Web Tokens)
-* **Database:** [Insert your DB e.g., MongoDB/MySQL]
+* **Database:** MongoDB
 
 ---
 
