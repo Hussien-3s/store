@@ -1,38 +1,34 @@
-# 🛒 Full-Stack Store Application
+# 🛠️ Tech Stack & Tools
 
-A modern, high-performance E-commerce store application built using the **MERN** stack (React & Node.js). This project features robust state management, secure authentication, and optimized data fetching.
-
----
-
-## 🚀 Key Features
-
-* **Caching & State Management:** Implemented **TanStack Query (React Query)** to reduce server load and provide a seamless user experience.
-* **Professional UI:** Built with **Material UI (MUI)** for a clean, responsive, and accessible design.
-* **Security:** Token-based authentication using **JWT** (JSON Web Tokens) to protect user data.
-* **Performance:** Optimized with **Axios** for efficient API communication and React **Memoization** to prevent unnecessary re-renders.
-* **Responsive Design:** Fully compatible with mobile, tablet, and desktop screens.
+This project leverages a modern and powerful stack to ensure high performance, scalability, and a seamless developer experience.
 
 ---
 
-## 🛠️ Tech Stack
-
-### **Frontend**
-* **Framework:** React (Vite)
-* **Styling:** Material UI (MUI)
-* **Data Fetching:** TanStack Query & Axios
-* **State Management:** React Context / Hooks
-
-### **Backend**
-* **Runtime:** Node.js
-* **Framework:** Express.js
-* **Authentication:** JWT (JSON Web Tokens)
-* **Database:** MongoDB
+### 🌐 Frontend (Client Side)
+* **React.js (Vite):** Core frontend framework for building a fast and reactive User Interface.
+* **Material UI (MUI):** Comprehensive UI component library for consistent and professional styling.
+* **TanStack Query (React Query):** Powerful client-side caching and server-state management.
+* **Axios:** Promise-based HTTP client for making clean and reliable API requests.
+* **React Router DOM:** Standard library for handling dynamic routing and navigation.
 
 ---
 
-## 📂 Project Structure
+### ⚙️ Backend (Server Side)
+* **Node.js:** Scalable JavaScript runtime environment for executing server-side code.
+* **Express.js:** Minimalist web framework for building robust RESTful APIs.
+* **MongoDB:** NoSQL document-based database for flexible and scalable data storage.
+* **Redis:** In-memory data structure store used as a high-speed database cache to reduce MongoDB load.
+* **JWT (JSON Web Token):** Industry-standard for secure user authentication and authorization.
+* **Dotenv:** Module for loading and managing sensitive environment variables.
+* **Cors:** Middleware for enabling and configuring Cross-Origin Resource Sharing.
 
-```text
-├── backend/           # Express server, API routes, & controllers
-├── frontend/          # React components, hooks, & MUI theme
-└── README.md          # Project documentation
+---
+
+### 🚀 DevOps & Tools
+* **Git & GitHub:** Version control system and cloud hosting for source code management.
+* **NPM:** The world's largest software registry for managing project dependencies.
+
+---
+
+## 📈 Database Architecture
+The project uses **MongoDB** as the primary persistent storage. To optimize performance, a **Redis** layer is implemented to cache frequent queries, ensuring that the application remains responsive even under high traffic.
